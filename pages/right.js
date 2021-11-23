@@ -13,10 +13,10 @@ export default function Home() {
   }, []);
   return (
     <div className={styles.container}>
-      <Link href="/xd">RIGHT</Link>
+      <Link href="/right">RIGHT</Link>
       <Link href="/">LEFT</Link>
-      <Link href="/gora">UP</Link>
-      <Link href="/dol">DOWN</Link>
+      <Link href="/up">UP</Link>
+      <Link href="/down">DOWN</Link>
     </div>
   );
 }
